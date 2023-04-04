@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+     <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">Verificador de Palíndromo</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="valor">Número:</label>
+                                <input placeholder="Insira o número aqui:" type="number" class="form-control" id="numero">
+                            </div>
+                            <button type="button" class="btn btn-primary btn-block" onclick="verificarPalindromo()" id="verificar">Verificar</button>
+                        </form>
+                        <div class="mt-3">
+                            <p class="text-center" id="resultado"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
